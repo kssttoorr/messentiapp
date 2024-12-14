@@ -15,18 +15,21 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.contactmanager.app",
+      "bundleIdentifier": "com.messenti",
       "config": {
         "usesNonExemptEncryption": false
       },
-      "deploymentTarget": "15.1"
+      "deploymentTarget": "15.1",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
-      "package": "com.contactmanager.app"
+      "package": "com.messenti",
+      "googleServicesFile": "./android/app/google-services.json"
     },
-    "scheme": "contactmanager",
+    "scheme": "messenti",
     "plugins": [
-      "expo-web-browser",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
       [
         "expo-build-properties",
         {
@@ -43,10 +46,10 @@
       [
         "react-native-fbsdk-next",
         {
-          "appID": "YOUR_FACEBOOK_APP_ID",
-          "clientToken": "YOUR_FACEBOOK_CLIENT_TOKEN",
-          "displayName": "Contact Manager",
-          "scheme": "fb${YOUR_FACEBOOK_APP_ID}",
+          "appID": "1902925610187308",
+          "clientToken": "74088d564f1473a017e6ab5196978d53",
+          "displayName": "Messenti",
+          "scheme": "fb${Messenti}",
           "advertiserIDCollectionEnabled": false,
           "autoLogAppEventsEnabled": false,
           "isAutoInitEnabled": true,
@@ -57,13 +60,13 @@
     "web": {
       "config": {
         "firebase": {
-          "apiKey": "YOUR_API_KEY",
-          "authDomain": "YOUR_AUTH_DOMAIN",
-          "databaseURL": "YOUR_DATABASE_URL",
-          "projectId": "YOUR_PROJECT_ID",
-          "storageBucket": "YOUR_STORAGE_BUCKET",
-          "messagingSenderId": "YOUR_MESSAGING_SENDER_ID",
-          "appId": "YOUR_APP_ID"
+          "apiKey": "AIzaSyD5u5UbQJtzqTj1iU5He_3Nkq2f5AVDcxo",
+          "authDomain": "messenti.firebaseapp.com",
+          "databaseURL": "https://messenti-default-rtdb.firebaseio.com",
+          "projectId": "messenti",
+          "storageBucket": "messenti.firebasestorage.app",
+          "messagingSenderId": "240075430882",
+          "appId": "1:240075430882:web:f96f4edcc41a16cec977bb"
         }
       }
     }

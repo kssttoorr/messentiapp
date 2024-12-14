@@ -2,7 +2,7 @@
   <string name="app_name">Contact Manager</string>
   <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
   <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
-  <string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
-  <string name="facebook_client_token">YOUR_FACEBOOK_CLIENT_TOKEN</string>
-  <string name="fb_login_protocol_scheme">fb${YOUR_FACEBOOK_APP_ID}</string>
+  <string name="facebook_app_id">1902925610187308</string>
+  <string name="facebook_client_token">74088d564f1473a017e6ab5196978d53</string>
+  <string name="fb_login_protocol_scheme">fb${Messenti}</string>
 </resources>

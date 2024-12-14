@@ -1,4 +1,4 @@
-package com.contactmanager.app
+package com.messenti
 
 import android.os.Build
 import android.os.Bundle
