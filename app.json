@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "Contact Manager",
+    "slug": "contact-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.contactmanager.app",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "deploymentTarget": "15.1"
+    },
+    "android": {
+      "package": "com.contactmanager.app"
+    },
+    "scheme": "contactmanager",
+    "plugins": [
+      "expo-web-browser",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 33,
+            "buildToolsVersion": "33.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "15.1"
+          }
+        }
+      ],
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "YOUR_FACEBOOK_APP_ID",
+          "clientToken": "YOUR_FACEBOOK_CLIENT_TOKEN",
+          "displayName": "Contact Manager",
+          "scheme": "fb${YOUR_FACEBOOK_APP_ID}",
+          "advertiserIDCollectionEnabled": false,
+          "autoLogAppEventsEnabled": false,
+          "isAutoInitEnabled": true,
+          "iosUserTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "web": {
+      "config": {
+        "firebase": {
+          "apiKey": "YOUR_API_KEY",
+          "authDomain": "YOUR_AUTH_DOMAIN",
+          "databaseURL": "YOUR_DATABASE_URL",
+          "projectId": "YOUR_PROJECT_ID",
+          "storageBucket": "YOUR_STORAGE_BUCKET",
+          "messagingSenderId": "YOUR_MESSAGING_SENDER_ID",
+          "appId": "YOUR_APP_ID"
+        }
+      }
+    }
+  }
+}

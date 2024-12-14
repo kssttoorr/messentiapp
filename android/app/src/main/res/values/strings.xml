@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">Contact Manager</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
+  <string name="facebook_client_token">YOUR_FACEBOOK_CLIENT_TOKEN</string>
+  <string name="fb_login_protocol_scheme">fb${YOUR_FACEBOOK_APP_ID}</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "240075430882",
+    "firebase_url": "https://messenti-default-rtdb.firebaseio.com",
+    "project_id": "messenti",
+    "storage_bucket": "messenti.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240075430882:android:f442c69dc961cd36c977bb",
+        "android_client_info": {
+          "package_name": "com.messenti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240075430882-mvo4g0u4s1fj3lqad70ji2blrofepvpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_ZxpLHbqIAe6WoaGR2RzccYCWmyPcjHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240075430882-mvo4g0u4s1fj3lqad70ji2blrofepvpp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "240075430882-jiuv20fke96ob73mab5orlelfus17hfp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.messenti"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
